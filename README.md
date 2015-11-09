@@ -1,5 +1,5 @@
 # README
-## this is a readme file.
+### This is a readme file.
 
 #### **some quotes**
 * Tomorrow will be cancelled due to lack of interest.
@@ -15,11 +15,15 @@
 - Today is the tomorrow you worried about yesterday.
 - You now have Asian Flu.
 
-* Italic text *
-* More italic text.. *
 
-** Bold text **
-** More bold text.. **
+*Italic text*
+*More italic text..*
 
-> This line is a blockquote.
+**Bold text**
+**More bold text..**
+
+>This line is a blockquote.
+>telnet some.example.site
+
+
 ~~https://the.link.is/broken~~
