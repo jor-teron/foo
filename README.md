@@ -16,14 +16,16 @@
 - You now have Asian Flu.
 
 
-*Italic text*
+*Italic text*.
 *More italic text..*
 
-**Bold text**
+**Bold text**.
 **More bold text..**
 
 >This line is a blockquote.
+
 >telnet some.example.site
 
+>cat food && sleep 25200 && sudo poweroff -r ;
 
 ~~https://the.link.is/broken~~
