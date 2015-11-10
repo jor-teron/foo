@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style type="text/css">
+body { font-size:16pt; }
+
+div#id1 { position:relative; top:2px; left:1%; width:98%; min-height:60%; background-color:#cccccc; border:1px solid #888888; }
+div#id2 { margin:5px 30px; min-height:60%; }
+
+div#form { position:fixed; bottom:2px; left:1%; width:98%; background-color:orange; }
+textarea { margin:5px 50px; width:100%; height:150px; font-size:1em; font-weight:600; }
+
+</style>
+<script type="text/javascript">
+function fetch(txt){
+var info="<center>Welcome to<h4>HTML try It</h4><br />You can see the HTML result as you type/code it in the text below...<br /><br /><h6>Version: 1.0<br />Author: jor teron<br />Date: 10th Nov 2015</h6></center>";
+if(txt.length==0){document.getElementById("id2").innerHTML=info;	}
+else{	document.getElementById("id2").innerHTML=txt;	}
+}
+</script>
+</head>
+<body onload="fetch('')">
+
+<div id="id1"><div id="id2"></div></div>
+
+<div id="form">
+<textarea id="id3" name="name2" onkeyup="fetch(this.value)" placeholder="enter HTML code..." autofocus></textarea><br />
+</div>
+
+</body>
+</html>
