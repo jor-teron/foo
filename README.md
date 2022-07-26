@@ -1,8 +1,8 @@
 # README
 ### This is a readme file.
 
-*LEARNING.html: Use this file to self teach html programming (just download it).
-*bashrc: Old .bashrc file.
+* LEARNING.html: Use this file to self teach html programming (just download it).
+* bashrc: Old .bashrc file.
 
 #### **some quotes**
 * Tomorrow will be cancelled due to lack of interest.
